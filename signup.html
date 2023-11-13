@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGNUP</title>
+    
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form action="">
+      <h1>SignUp Form</h1>
+      <div class="form-control">
+        <input id="name" type="text" placeholder="name" onkeypress="document.querySelector('small').innerHTML='';"/>
+        <small></small>
+        <span></span>
+      </div>
+
+      <div class="form-control">
+        <input id="email" type="email" placeholder="Email" onkeypress="document.querySelector('small').innerHTML='';"/>
+        <small></small>
+        <span></span>
+      </div>
+
+      <div class="form-control">
+        <input id="password" type="password" placeholder="Password" onkeypress="document.querySelector('small').innerHTML='';"/>
+        <small></small>
+        <span></span>
+      </div>
+
+      <div class="form-control">
+        <input
+          id="confirm-password"
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <small></small>
+        <span></span>
+      </div>
+      <button type="submit"  class="btn-submit"id="btn_submit"  >Sign Up</button>
+      <div class="signup-link"> is a member? <a href="./login.html" id="login-link" >Login</a></div>
+
+    </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js" integrity="sha512-m9S8W3a9hhBHPFAbEIaG7J9P92dzcAWwM42VvJp5n1/M599ldK6Z2st2SfJGsX0QR4LfCVr681vyU5vW8d218w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+    <script src="/UserRegister.js"></script>
+    <script src="./signup.js"></script>
+  </body>
+  
+</html>
